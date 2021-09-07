@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    position: sticky;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+     border: 1px solid #000;
+}
+
+.topnav a:hover {
+    background-color: #666;
+    color: #000;
+   
+}
+
+.header {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    background:#666;
+}
+
+.ch {
+   
+    background-color: #888;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.lme {
+    height: 100px;
+    border: 1px solid #111;
+    opacity: 0.5; 
+}
+
+.lme:hover {
+    opacity: 1;
+}
+
+.leftcol {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 75%;
+}
+
+.rightcol {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.t{
+    background-color: #000;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 10px;
+
+}
+
+.s{
+    overflow: auto;
+    background-color: #888;
+    padding:0px;
+    margin-bottom: 0px;
+    border: 1px solid #000;
+    margin: 0px;
+}
+
+
+.sp{
+float: left;
+margin-left: 0px;
+size:10px ;
+margin-right: 10px;
+}
+
+
+.comment {
+  
+  width: 70%;
+  height: 140px;
+  margin-left: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+ 
+  
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  width: 100%;
+}
+
+
+.ad{
+    ext-align: center;
+     background-color: #06f30e;
+     width: 100%;
+     height: 50px;
+     border: 4px dotted #090;
+     animation-name: ad;
+     animation-duration:0.5s;
+     animation-iteration-count: infinite;
+
+
+}
+
+@keyframes ad{
+    0%{border: 4px dotted #090;}
+    100%{ border: 5px dotted #062706;}
+}
+
+.adb{
+    margin-left: 45%;
+     display: inline-block;
+     background-color: #040036e0;
+     text-align: center;
+     text-decoration: none;
+     border: 1px solid skyblue;
+     color: #000;
+     margin-bottom: 10px;
+     margin-top: 10px;
+
+}
+
+.footer{
+        background-color: #000;
+        display: inline-block;
+        width:100% ;
+        height:200px ;
+        color: #000;
+
+}
+
+
+
+.bt{
+display:  inline-block;
+background-color:#888;
+color: #000;
+padding: 20px;
+margin: 50px;
+text-decoration: none;
+border: 1px solid blue;
+
+}
+
+.bt a: hover
+{
+    color: hotpink;
+    font-size: 18px;
+}
